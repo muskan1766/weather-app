@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e3f2fd;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 15px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: #1976d2;
+}
+
+.toggle {
+    margin-top: 10px;
+}
+
+.toggle button {
+    background: #90caf9;
+    color: black;
+    margin: 0 5px;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+    .container {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(10px);
+        padding: 25px;
+        border-radius: 16px;
+        width: 330px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+}
+
+#result h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#result p {
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+#result img {
+    width: 80px;
+    height: 80px;
+}
+
+.loader {
+    display: none;
+    margin: 15px auto;
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ccc;
+    border-top: 5px solid #2196f3;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
