@@ -11,6 +11,15 @@ A responsive weather application built using **HTML, CSS, and JavaScript** that 
 - Loading spinner animation
 - Fully responsive UI
 
+## 🔗 Links
+
+- 📂 **GitHub Repository:**  
+  https://github.com/muskan1766/weather-app
+
+- 🌐 **Live Demo:**  
+  https://muskan1766.github.io/weather-app/
+
+
 ## 🛠 Tech Stack
 - HTML
 - CSS
